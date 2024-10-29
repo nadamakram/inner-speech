@@ -1,0 +1,6 @@
+# Ignore sensitive data files
+secrets.json
+config.json
+__pycache__
+data/*.mat
+data/*.json
