@@ -15,3 +15,13 @@ source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate     # For Windows
 pip install -r requirements.txt
 ```
+
+# Repo Structure
+
+summary of the directory structure for the project:
+
+`notebooks/deep_learning`: Contains notebook experiments related to deep learning approaches for inner speech decoding.
+
+`notebooks/machine_learning`: Contains notebook experiments focusing on machine learning approaches for decoding inner speech.
+
+`src`: Includes code functions for loading data, preprocessing, feature extraction, and model evaluation.
