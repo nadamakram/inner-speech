@@ -39,16 +39,16 @@ def get_subject_indices(subject_file_param):
     'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'D32']
 
     selected_channels = {
-    '../data/Subject_1.mat': ['A29', 'B10', 'B27', 'C5', 'D4', 'D9', 'D24', 'D27'],
-    '../data/Subject_2.mat': ['A1', 'A6', 'A12', 'B23', 'B27', 'C29', 'D10', 'D22'],
-    '../data/Subject_3.mat': ['A15', 'A20', 'B10', 'B16', 'C3', 'C7', 'D24', 'D32'],
-    '../data/Subject_4.mat': ['A14', 'A23', 'B7', 'B11', 'C8', 'C15', 'D6', 'D32'],
-    '../data/Subject_5.mat': ['A11', 'A25', 'A32', 'B11', 'B27', 'C18', 'D7', 'D25'],
-    '../data/Subject_6.mat': ['A12', 'A20', 'B2', 'B15', 'B24', 'B27', 'C6', 'D32'],
-    '../data/Subject_7.mat': ['A14', 'A22', 'A26', 'A29', 'B8', 'B15', 'C9', 'D32'],
-    '../data/Subject_8.mat': ['A16', 'A27', 'B6', 'B11', 'C10', 'C31', 'D19', 'D32'],
-    '../data/Subject_9.mat': ['A1', 'A20', 'B11', 'B17', 'C8', 'D6', 'D18', 'D23'],
-    '../data/Subject_10.mat': ['A3', 'A14', 'A17', 'A27', 'B25', 'C9', 'D23', 'D32']
+    'Subject_1.mat': ['A29', 'B10', 'B27', 'C5', 'D4', 'D9', 'D24', 'D27'],
+    'Subject_2.mat': ['A1', 'A6', 'A12', 'B23', 'B27', 'C29', 'D10', 'D22'],
+    'Subject_3.mat': ['A15', 'A20', 'B10', 'B16', 'C3', 'C7', 'D24', 'D32'],
+    'Subject_4.mat': ['A14', 'A23', 'B7', 'B11', 'C8', 'C15', 'D6', 'D32'],
+    'Subject_5.mat': ['A11', 'A25', 'A32', 'B11', 'B27', 'C18', 'D7', 'D25'],
+    'Subject_6.mat': ['A12', 'A20', 'B2', 'B15', 'B24', 'B27', 'C6', 'D32'],
+    'Subject_7.mat': ['A14', 'A22', 'A26', 'A29', 'B8', 'B15', 'C9', 'D32'],
+    'Subject_8.mat': ['A16', 'A27', 'B6', 'B11', 'C10', 'C31', 'D19', 'D32'],
+    'Subject_9.mat': ['A1', 'A20', 'B11', 'B17', 'C8', 'D6', 'D18', 'D23'],
+    'Subject_10.mat': ['A3', 'A14', 'A17', 'A27', 'B25', 'C9', 'D23', 'D32']
     }
 
     # Retrieve selected channels for the given subject
