@@ -68,19 +68,8 @@ def preprocess_data(X):
     # Apply CAR
     car_data = common_average_reference(filtered_data)
 
-    # Reshape for scaling (samples, channels)
-    reshaped_data = car_data.reshape(-1, car_data.shape[1])
 
-    # RobustScaler Instance
-    scaler = RobustScaler()
-
-    # Apply RobustScaler
-    scaled_data = scaler.fit_transform(reshaped_data)
-
-    # Reshape back to original dimensions
-    X_preprocessed = scaled_data.reshape(car_data.shape)
-
-    return X_preprocessed
+    return car_data
 
 
 # Example usage in a notebook
