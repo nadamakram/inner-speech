@@ -1,5 +1,5 @@
-# inner-speech 
-
+# Optimizing Inner Speech Decoding from EEG Signals through Feature Selection and Model Interpretability 
+This project focuses on decoding inner speech from EEG signals, aiming to develop communication aids for individuals with motor impairments. It explores signal preprocessing, electrode reduction, and machine learning (ML) and deep learning (DL) methods for accurate classification. The study uses feature extraction in time and frequency domains, applying ML models and ensemble techniques, as well as CNNs and BiLSTMs for DL. Saliency mapping is employed for model interpretability. Findings highlight the potential of using reduced electrode sets for efficient and portable EEG-based communication devices.
 # Setup 
 1. Clone the repository
 
